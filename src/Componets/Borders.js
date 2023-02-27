@@ -11,7 +11,7 @@ export const Borders = ({ data }) => {
     fetch(`https://restcountries.com/v3.1/alpha?codes=${data.join(",")}`)
       .then((res) => res.json())
       .then((fetchData) => setborde(fetchData));
-  }, []);
+  }, [data.join(",")]);
 
   return (
     <div className="divBorder">
