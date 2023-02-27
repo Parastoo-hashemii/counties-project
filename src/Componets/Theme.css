@@ -1,0 +1,34 @@
+.dark {
+  background-color: #4c4a4a !important;
+  color: white !important;
+}
+.light {
+  background-color: #fff !important;
+  color: #333 !important;
+}
+
+.homedark {
+  background-color: #535151 !important;
+  color: #fff !important;
+}
+/* .homelight {
+  background-color: #fff;
+  color: #333;
+} */
+
+.bt-colordark {
+  background-color: #51575c !important;
+  color: white !important;
+}
+
+.pdark {
+  color: white;
+}
+@media only screen and (max-width: 320px) {
+  .size {
+    width: 60px;
+    height: 40px;
+    font-size: 10px !important;
+    font-weight: bold;
+  }
+}

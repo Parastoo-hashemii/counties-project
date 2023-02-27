@@ -1,0 +1,93 @@
+.Button {
+  margin-left: 120px !important;
+  margin-top: 70px !important;
+  /* margin-bottom: 80px !important; */
+}
+
+.cardfrist {
+  margin-top: 50px !important;
+}
+
+.right {
+  margin-left: 120px;
+}
+.left {
+  margin-right: 130px;
+  margin-top: 25px !important;
+}
+
+.image {
+  width: 500px;
+  height: 300px;
+}
+P {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  font-weight: normal;
+  color: #0f0f0f;
+}
+span {
+  font-weight: lighter;
+  color: rgb(140, 140, 140);
+}
+h3 {
+  margin-bottom: 15px !important;
+  font-weight: 900;
+}
+
+.divBorder {
+  display: flex;
+}
+#allborders {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 320px) {
+  .image {
+    display: flex;
+    justify-content: start;
+    margin-left: 2px !important;
+  }
+
+  p {
+    font-weight: Light;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .Button {
+    margin-left: 30px !important;
+    margin-top: 20px !important;
+    /* margin-bottom: 80px !important; */
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Button {
+    margin-left: 30px !important;
+    margin-top: 20px !important;
+    /* margin-bottom: 80px !important; */
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .Button {
+    margin-left: 45px !important;
+    margin-top: 20px !important;
+    /* margin-bottom: 80px !important; */
+  }
+}
+@media only screen and (max-width: 750px) {
+  .Button {
+    margin-left: 60px !important;
+    margin-top: 20px !important;
+    /* margin-bottom: 80px !important; */
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .Button {
+    margin-left: 30px !important;
+    margin-top: 20px !important;
+    /* margin-bottom: 80px !important; */
+  }
+}
